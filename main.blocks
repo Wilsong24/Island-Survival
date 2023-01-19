@@ -121,21 +121,21 @@ ddd88888888899999999999999999999999999999999999999999999999999999999999999999999
 ee99999999999999999999999999999999999999111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 `</field><data>{"commentRefs":[],"fieldData":{"img":"6^Q%obqL8)P;IlN!k885"}}</data></shadow></value><next><block type="function_call" id="*j+e,J]s#y3Jx=WPK2NF"><mutation name="makeTrees" functionid="mhw.SUU-_cJr+D![xY9X"></mutation><next><block type="variables_set" id="|MCxjwN;tfuzg9G!mthH"><field name="VAR" id="yjchQ0|9iIN%+aaK{iUN">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="kMcj)agdiA=+)KMuAot."><value name="img"><shadow type="screen_image_picker" id="(uKRU01Nx1:7#~_*Bk4B"><field name="img">img`
 . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+. . . . b b b b . . . . . . . . 
+. . . b 3 3 3 3 b b b b . . . . 
+. . b b 3 3 3 3 3 3 1 1 b c c . 
+. . b 3 3 3 3 3 3 1 1 1 3 c c c 
+. . b 1 1 3 3 3 3 3 3 3 3 3 b c 
+. . c 1 1 3 3 3 b c c c c b b f 
+. c c 3 3 3 b b d d d c c c b f 
+c b 3 3 b b d d d d d d b c b f 
+c 3 3 c b d d d d d d d d b c . 
+f 3 c c c d d d d d d c c d c . 
+f b c c c d d c c d d d d d f . 
+f b c c c d d d d d b b b d f . 
+f f b b c f f b d d d d d c . . 
+. f f f f d d b b d d d b f . . 
+. . . . f d d d b c c f f f . . 
 `</field><data>{"commentRefs":[],"fieldData":{"img":"(uKRU01Nx1:7#~_*Bk4B"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Q.NTN8B}9AjttA}@u,23"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="function_definition" id="wH{TND(e19|y8pbY4R_J" x="660" y="40"><mutation name="makeTrees" functionid="mhw.SUU-_cJr+D![xY9X"></mutation><field name="function_name">makeTrees</field><statement name="STACK"><block type="variables_set" id="ZUDF(LE8~CK~Zd(JNZZ]"><field name="VAR" id="795B@kRYUEH*:^MJ(is6">trees#</field><value name="VALUE"><shadow type="math_number" id="tdDGh3Q-I}/hwd/~;CWv"><field name="NUM">0</field></shadow></value><next><block type="device_while" id="/x!v?=Z^4_4o;b/Lx.N/"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="AUF$EZZnUj5Gah5;YUA{"><field name="OP">NEQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="`;4*AFc[d$!D3B8Nz)qy"><field name="VAR" id="795B@kRYUEH*:^MJ(is6">trees#</field></block></value><value name="B"><shadow type="math_number" id="(hH@;J(2to.Mr?#4dX#f"><field name="NUM">5</field></shadow></value></block></value><statement name="DO"><block type="variables_set" id="-}7%@0fYR*u9B-RQ_og:"><field name="VAR" id="bCt^V#{s^5ZR#f^QwV](">treeType</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_random" id="$}KTvO#(}$K#q9BmH,?U"><value name="min"><shadow type="math_number" id="HmjE!,LTNlAw^k@=~:0L"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="m;/7laiXW,~@M-3Y_R,x"><field name="NUM">4</field></shadow></value></block></value><next><block type="controls_if" id="b/=[$Gf17gJGu`f*?;h-"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!?TqdwD+;(b88X]1S];X"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="vLIa5)=Ct-h3H?9L0x+{"><field name="VAR" id="bCt^V#{s^5ZR#f^QwV](">treeType</field></block></value><value name="B"><shadow type="math_number" id="J;`|-p1=3wi2H0{p%QSE"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="?n%EPY+JPBw*qkyeyoI`"><field name="VAR" id="WAqGD5I@yOw]*6@ulWE!">beachTree</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="MfhJDAhZx^Bup8R3Hl_2"><value name="img"><shadow type="screen_image_picker" id="r9e}KyqYX%@mVvwtU9mk"><field name="img">img`
 ................86..................
 ...........6688867886...............

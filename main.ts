@@ -298,19 +298,19 @@ scene.setBackgroundImage(img`
 makeTrees()
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+    . . . . b b b b . . . . . . . . 
+    . . . b 3 3 3 3 b b b b . . . . 
+    . . b b 3 3 3 3 3 3 1 1 b c c . 
+    . . b 3 3 3 3 3 3 1 1 1 3 c c c 
+    . . b 1 1 3 3 3 3 3 3 3 3 3 b c 
+    . . c 1 1 3 3 3 b c c c c b b f 
+    . c c 3 3 3 b b d d d c c c b f 
+    c b 3 3 b b d d d d d d b c b f 
+    c 3 3 c b d d d d d d d d b c . 
+    f 3 c c c d d d d d d c c d c . 
+    f b c c c d d c c d d d d d f . 
+    f b c c c d d d d d b b b d f . 
+    f f b b c f f b d d d d d c . . 
+    . f f f f d d b b d d d b f . . 
+    . . . . f d d d b c c f f f . . 
     `, SpriteKind.Player)
